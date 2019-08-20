@@ -13,8 +13,7 @@ namespace MarianneCoreDemo.Models
         public DbSet<Customer> Customers { get; set; }
         
        
-        // Dependency Injection - add constructor and update startup
-        
+        // Dependency Injection - add constructor and update startup        
             // Constructor: public class name(DBContextOptions options) : base(options)  
         public MyDB(DbContextOptions options) : base(options)
         { }
